@@ -34,7 +34,7 @@
 🔭 [Ноутбук с кратким анализом данных](https://github.com/nedokormysh/Start_DS_Inflation_Salaries/blob/main/Start_DS_final.ipynb)
 
 ### Streamlit сервис
-🔭 [Развёрнутый сервис](https://simpleabalonepresentatiom.streamlit.app) 
+🔭 [Развёрнутый сервис](https://startdsinflationsalaries-14042024.streamlit.app/) 
 
 ### Автор 
 * Илья Березуцкий
