@@ -37,8 +37,8 @@
 
 - streamlit_app.py: streamlit app
 - salaries.csv: датасет с зарплатами
-- inflation.csv: - датасет с инфляцией
-- Other_char.xlsx: - датасет с дополнительными характеристиками
+- inflation.csv: датасет с инфляцией
+- Other_char.xlsx: датасет с дополнительными характеристиками
 - requirements.txt: необходимые пакеты для работы приложения
 
 ### Streamlit сервис
