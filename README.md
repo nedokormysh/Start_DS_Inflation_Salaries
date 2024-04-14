@@ -24,7 +24,7 @@
 Результаты также отобразите в Streamlit-приложении.
 
 ### Файлы
-[Ссылка на соревнование с датасетом](https://www.kaggle.com/competitions/playground-series-s4e4/data)
+
 - streamlit_app.py: streamlit app
 - salaries.csv: датасет с зарплатами
 - inflation.csv: - датасет с инфляцией
