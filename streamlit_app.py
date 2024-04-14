@@ -119,7 +119,7 @@ def line_graph(df: pd.DataFrame,
                  row.values,
                  color=colors[df_temp.index.get_loc(i)],
                  label=i)
-    #
+    
     plt.title('Изменение среднемесячной номинальной заработной платы\n без учёта инфляции')
     plt.xlabel('Год')
     plt.ylabel('Среднемесячная заработная плата (руб)')
@@ -196,12 +196,6 @@ def inflation_graph(df: pd.DataFrame) -> matplotlib.figure.Figure:
 def real_income(salaries: pd.DataFrame,
                 inflation: pd.DataFrame) -> pd.DataFrame:
     salaries_real = pd.DataFrame(index=salaries.index, columns=salaries.columns)
-    """
-    Функция для рассчёта реальной заработной платы
-    :param salaries: датафрейм зарплат
-    :param inflation: датафрейм инфляции
-    :return: датафрейм реальных зарплат
-    """
 
     # вычисляем реальные зарплаты для каждого года и вида деятельности
     for year in salaries.columns:
